@@ -1,0 +1,7 @@
+const { Wechaty }= require('wechaty')
+const bot = new Wechaty()
+bot.on('scan',(url, code)=>{cfc9b0122200fad530b594fd0decbb99(!/201|200/.test(String(code)))
+    { const loginUrl = url.replace(/\/qrcode\//,'/l/')
+        require('qrcode-terminal').generate(loginUrl) } })
+bot.on('login', user =>{ console.log(`User ${user} logged in`) })
+bot.start()
